@@ -61,6 +61,7 @@ header{
     gap: 32px;
     margin-top: 48px;
     margin-bottom: 48px;
+    border-bottom: 1px solid var(--color-secundario);
 }
 .hero-izq{
     flex: 1;
@@ -115,13 +116,16 @@ header{
 /*HERO*/
 /*HABILIDADES*/
 
-.habilidades{
-    border-top: 1px solid var(--color-secundario);
-    text-align: center;
+.habilidades {
+    border: 1px solid var(--color-secundario);
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 10px 120px 50px 120px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 .habilidades-titulo{
+    text-align: center;
     font-weight: bold;
 }
 .lista-habilidades {
