@@ -1,0 +1,157 @@
+/*----VARIABLES----*/
+:root{
+    --background-color: #1E1E1E;
+    --color-texto-principal: #ffff;
+    --color-texto-secundario: #B0BEC5;
+    --color-texto-resaltado: #00D8FF;
+    --color-secundario: #00FFAB;
+
+    --fuente-principal: 'Noto Sans', sans-serif;
+
+}
+
+
+/*----ESTILO BASE----*/
+body{
+    background-color: var(--background-color);
+    font-family: var(--fuente-principal);
+    color: var(--color-texto-principal);
+}
+
+/*----HEADER----*/
+header{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-secundario);
+}
+
+.logo{
+    justify-content: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+}
+
+.nav{
+    justify-content: right;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 50px;
+    gap: 32px;
+}
+.nav ul li a{
+    color: var(--color-texto-secundario);
+    text-decoration: none;
+}
+
+/*----MAIN----*/
+
+/*HERO*/
+.hero{
+    display: flex;
+    padding: 32px;
+    align-items: flex-start;
+    gap: 32px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.hero-izq{
+    flex: 1;
+    max-width: 50%;
+}
+.hero-der{
+    flex: 1;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-titulo{
+    font-size: 55px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.sebastian-contreras{
+    font-weight: bold;
+    border-bottom: 1px solid var(--color-secundario);
+    letter-spacing: 3px;
+}
+
+.hero-subt-desc-contenedor{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.hero-subt{
+    color: var(--color-texto-resaltado);
+}
+.hero-desc{
+    border-left: 1.5px solid var(--color-secundario);
+    padding-left: 8px;
+}
+.hero-desc span{
+    color: var(--color-texto-resaltado);
+}
+
+.hero-info-personal {
+    font-size: large;
+    color: var(--color-texto-secundario);
+    border-left: 1.5px solid var(--color-secundario);
+    padding: 15px;
+    text-align: left;
+    line-height: 1.6;
+}
+/*HERO*/
+/*HABILIDADES*/
+
+.habilidades{
+    border-top: 1px solid var(--color-secundario);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.habilidades-titulo{
+    font-weight: bold;
+}
+.lista-habilidades {
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 16px;
+}
+.habilidad {
+    background-color: var(--color-secundario);
+    color: var(--background-color);
+    font-weight: bold;
+    padding: 10px 20px; 
+    border-radius: 25px;
+    font-size: 1em;
+}
+
+
+/*----FOOTER----*/
+
+.footer{
+    border-top: 1px solid var(--color-secundario);
+    display: flex;
+    justify-content: space-between;
+    color: #B0BEC5;
+}
+.licencia{
+    justify-content: left;
+}
+.mail{
+    justify-content: right;
+}

@@ -3,24 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Sebas Portfolio</title>
 </head>
 <body>
     <header>
         <h1 class="logo">Seb</h1>
         <nav class="nav">
-            <a href="index.html">Sobre mi</a>
-            <a href="#">Proyectos</a>
-            <a href="#">Contactar</a>
-        </nav>
+            <ul>
+              <li><a href="#">Sobre mí</a></li>
+              <li><a href="#">Proyectos</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </nav>
     </header>
+
     <main>
         <section class="hero">
-            <h2 class="hero-titulo">Hola! Soy <br><span class="sebastian-contreras">Sebastian Contreras</span></h2>
-            <p class="hero-subt">Frontend Developer</p>
-            <p class="hero-desc">Entusiasmado por crear <span class="importante">Experiencias Web Interactivas</span><br>Y transformar ideas en <span class="importante">Sitios Web Modernos y Funcionables</span></p>
+            <div class="hero-izq">
+                <h2 class="hero-titulo">Hola! Soy <br><span class="sebastian-contreras">Sebastian Contreras</span></h2>
+                <div class="hero-subt-desc-contenedor">
+                    <p class="hero-subt">Frontend Developer</p>
+                    <p class="hero-desc">Entusiasmado por crear <span>Experiencias Web Interactivas</span><br>Y transformar ideas en <span>Sitios Web Modernos y Funcionables</span></p>
+                </div>
+            </div>  
 
-            <p class="hero-info-personal">Desde Veinticinco de Mayo, provincia de Buenos Aires, muy por el mundo de la programación. Disfruto especialmente el desarrollo web, donde puedo dar vida y funcionalidad a las ideas. Siempre estoy buscando mantenerme actualizado y aprendiendo sobre las últimas tecnologías que surgen. Fuera del todo este ambiente, también me gusta el cine, el gimnasio y la música.</p>
+            <div class="hero-der">
+                <p class="hero-info-personal">Desde Veinticinco de Mayo, provincia <br> de Buenos Aires, muy interesado por el mundo de la <br> programación. <br>Disfruto especialmente el desarrollo web, <br> donde puedo dar vida y funcionalidad a las <br> ideas. <br>Siempre estoy buscando mantenerme <br> actualizado y aprendiendo sobre las últimas <br> tecnologías que surgen. <br>Y fuera del todo este ambiente, también me <br> gusta el cine, el gimnasio y la música.</p>
+            </div>
         </section>
 
         <section class="habilidades">
