@@ -1,6 +1,6 @@
 /*----VARIABLES----*/
 :root{
-    --background-color: #1E1E1E;
+    --background-color: #2a2e35;
     --color-texto-principal: #ffff;
     --color-texto-secundario: #B0BEC5;
     --color-texto-resaltado: #00D8FF;
@@ -12,6 +12,7 @@
 
 
 /*----ESTILO BASE----*/
+
 body{
     background-color: var(--background-color);
     font-family: var(--fuente-principal);
@@ -21,30 +22,17 @@ body{
 /*----HEADER----*/
 header{
     width: 100%;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border-bottom: 1px solid var(--color-secundario);
 }
 
-.logo{
-    justify-content: left;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 48px;
-}
-
-.nav{
-    justify-content: right;
-}
 .nav ul{
     display: flex;
+    justify-content: center;
     list-style: none;
-    padding: 0;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem ;
     margin: 0;
-    margin-right: 50px;
-    gap: 32px;
+    gap: 10rem;
 }
 .nav ul li a{
     color: var(--color-texto-secundario);
@@ -59,7 +47,7 @@ header{
     padding: 32px;
     align-items: flex-start;
     gap: 32px;
-    margin-top: 48px;
+    margin-top: 43px;
     margin-bottom: 48px;
     border-bottom: 1px solid var(--color-secundario);
 }
@@ -148,6 +136,7 @@ header{
 /*----FOOTER----*/
 
 .footer{
+    font-size: small;
     border-top: 1px solid var(--color-secundario);
     display: flex;
     justify-content: space-between;
