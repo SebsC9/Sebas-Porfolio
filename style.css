@@ -29,8 +29,7 @@ header{
     display: flex;
     justify-content: center;
     list-style: none;
-    padding-bottom: 1rem;
-    padding-top: 0.5rem ;
+    padding: 1rem 0rem;
     margin: 0;
     gap: 10rem;
 }
@@ -44,11 +43,9 @@ header{
 /*HERO*/
 .hero{
     display: flex;
-    padding: 32px;
+    padding: 4rem 0rem 4rem 20rem;
     align-items: flex-start;
     gap: 32px;
-    margin-top: 43px;
-    margin-bottom: 48px;
     border-bottom: 1px solid var(--color-secundario);
 }
 .hero-izq{
@@ -58,8 +55,6 @@ header{
 .hero-der{
     flex: 1;
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .hero-titulo{
@@ -108,16 +103,15 @@ header{
     border: 1px solid var(--color-secundario);
     border-radius: 20px;
     box-sizing: border-box;
-    margin: 10px 120px 50px 120px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin: 3rem 10rem;
+    padding: 3rem 0rem;
 }
 .habilidades-titulo{
     text-align: center;
     font-weight: bold;
 }
 .lista-habilidades {
-    padding-top: 16px;
+    padding: 16px 0px 0px 0px;
     display: flex;
     justify-content: center;
     list-style: none;
@@ -130,6 +124,7 @@ header{
     padding: 10px 20px; 
     border-radius: 25px;
     font-size: 1em;
+    transition: box-shadow 0.2s ease-in-out;
 }
 
 
@@ -141,10 +136,24 @@ header{
     display: flex;
     justify-content: space-between;
     color: #B0BEC5;
+    padding: 0rem 1rem;
 }
 .licencia{
     justify-content: left;
 }
 .mail{
     justify-content: right;
+}
+
+/*----ANIMACIONES----*/
+
+nav ul li a:hover{
+    transform: scale(1.05);
+    color: #00D8FF;
+}
+
+.habilidad:hover{
+    cursor: default;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 20);
+    transform: scale(1.05);
 }
