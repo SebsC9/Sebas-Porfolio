@@ -12,11 +12,16 @@
 
 
 /*----ESTILO BASE----*/
+*{
+    box-sizing: border-box;
+}
 
 body{
     background-color: var(--background-color);
+    background-image: linear-gradient(to bottom, #2a2e35, #282828);
     font-family: var(--fuente-principal);
     color: var(--color-texto-principal);
+    cursor: default;
 }
 
 /*----HEADER----*/
@@ -148,12 +153,20 @@ header{
 /*----ANIMACIONES----*/
 
 nav ul li a:hover{
-    transform: scale(1.05);
     color: #00D8FF;
 }
 
 .habilidad:hover{
     cursor: default;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 20);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.1) rotate(6deg);
+    -moz-transform: scale(1.1) rotate(6deg);
+    -ms-transform: scale(1.1) rotate(6deg);
+    -o-transform: scale(1.1) rotate(6deg);
+    transform: scale(1.1) rotate(6deg);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
 }
