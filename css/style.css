@@ -1,0 +1,61 @@
+@import url(Variables.css);
+
+/*----ESTILO BASE----*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--background-color);
+    background-image: linear-gradient(to bottom, #2a2e35, #282828);
+    font-family: var(--fuente-principal);
+    color: var(--color-texto-principal);
+    cursor: default;
+}
+
+/*----HEADER----*/
+header{
+    width: 100%;
+    border-bottom: 1px solid var(--color-secundario);
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem 0rem;
+    margin: 0;
+    gap: 10rem;
+}
+.nav ul li a{
+    color: var(--color-texto-secundario);
+    text-decoration: none;
+}
+
+.activo{
+    font-weight: bold;
+    border-bottom: 2px solid var(--color-secundario);
+}
+
+/*----FOOTER----*/
+
+.footer{
+    font-size: small;
+    border-top: 1px solid var(--color-secundario);
+    display: flex;
+    justify-content: space-between;
+    color: #B0BEC5;
+    padding: 0rem 1rem;
+}
+.licencia{
+    justify-content: left;
+}
+.mail{
+    justify-content: right;
+}
+
+/*----ANIMACIONES----*/
+
+nav ul li a:hover{
+    color: #00D8FF;
+}
