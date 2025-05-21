@@ -11,6 +11,7 @@ body{
     font-family: var(--fuente-principal);
     color: var(--color-texto-principal);
     cursor: default;
+    margin:  0;
 }
 
 /*----HEADER----*/
@@ -32,10 +33,7 @@ header{
     text-decoration: none;
 }
 
-.activo{
-    font-weight: bold;
-    border-bottom: 2px solid var(--color-secundario);
-}
+
 
 /*----FOOTER----*/
 
@@ -58,4 +56,9 @@ header{
 
 nav ul li a:hover{
     color: #00D8FF;
+}
+
+.activo{
+    font-weight: bold;
+    border-bottom: 2px solid var(--color-secundario);
 }
