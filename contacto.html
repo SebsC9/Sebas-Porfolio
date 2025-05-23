@@ -2,9 +2,71 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>Contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Src/Favicon/favicon.ico" type="ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Sebas Contacto</title>
 </head>
 <body>
+    <header>
+        <nav class="nav">
+            <ul>
+              <li><a href="index.html">Sobre mí</a></li>
+              <li><a href="proyectos.html">Proyectos</a></li>
+              <li><a href="contacto.html"  class="activo">Contacto</a></li>
+            </ul>
+          </nav>
+    </header>
+
+    <main>
+        <h2>Completa el formulario para contactarme</h2>
+        <section class="contenedor-contactar">
+            <div class="formulario">
+                <form action="" method="post">
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+
+                    <input type="email" id="email" name="email" placeholder="Email">
+
+                    <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+
+                    <input type="submit" value="enviar" class="boton">
+                </form>
+            </div>
+
+            <div class="links">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/sebastian-contreras-66155830a/">
+                        <img src="Src/Icons/linkedin_jy8komz19qcm.svg" alt="icono linkedin" class="icon">
+                        Linkedin
+                    </a></li>
+                    <li><a href="https://github.com/SebsC9">
+                        <img src="Src/Icons/github_logo_94lqwcmbt0ue.svg" alt="icono linkedin" class="icon">
+                        Github
+                    </a></li>
+                    <li><a href="https://www.instagram.com/sebas.contreras_/">
+                        <img src="Src/Icons/instagram_logo_vtyznosn9smg.svg" alt="icono linkedin" class="icon">
+                        Instagram
+                    </a></li>
+                    <li><a href="">
+                        <img src="Src/Icons/curriculum_vitae_83vjp6853hq2.svg" alt="icono linkedin" class="icon">
+                        Curriculum Vitae
+                    </a></li>
+                </ul>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="licencia">© 2025 Sebastián Contreras</p>
+        <p class="mail">Sebascontreras319@gmail.com</p>
+    </footer>
+
     
 </body>
 </html>

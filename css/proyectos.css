@@ -12,13 +12,13 @@
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
     gap: 60px;
-    padding: 0;
+    padding: 1rem;
     margin: 0;
 }
 
 .proyecto{
     background-color: #575757;
-    opacity: 60%;
+    opacity: 30%;
     border: 2px solid var(--color-secundario);
     border-radius: 10px;
     min-height: 250px;
